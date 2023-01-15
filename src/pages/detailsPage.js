@@ -1,10 +1,16 @@
 import React from 'react'
+import DeteilPA from '../components/diteylesPage';
+import Footer from '../components/Footer/index';
 
-const DetailsPage = () => {
+const DetailsPage = ({onAdd, cartItems}) => {
   return (
-    <div>
-      hi
-    </div>
+  <div>
+    <DeteilPA 
+    
+    onAdd={onAdd} cartItems={cartItems}/>
+    <Footer/>
+ 
+  </div>
   )
 }
 

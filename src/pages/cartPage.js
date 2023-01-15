@@ -1,14 +1,18 @@
 import React from 'react';
-import Footer from '../components/Footer';
+
 import CartPart from '../components/CartPart/index';
 
 
-const CartPage = () => {
+const CartPage = (props) => {
+
+const{cartItems, onAdd} = props
+
+
   return (
     <div>
       
-    <CartPart/>
-     <Footer/>
+    <CartPart onAdd={onAdd} cartItems={cartItems}/>
+   
     </div>
   )
 }

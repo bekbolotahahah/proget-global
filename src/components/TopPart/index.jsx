@@ -15,15 +15,15 @@ const TopPart = () => {
           <Link to='/catalog'><button className='open_catalog'>  Открыть каталог </button></Link>
 
         </div>
-        <div className="picone">
-          <img src={first} alt='first' />
-        </div>
-        <div className='pictwo'>
-          <img src={second} alt='second' />
-        </div>
-        <div className="pithird">
-          <img src={third} alt='third' />
-        </div>
+        
+          <img src={first} alt='first' className="picone"/>
+      
+       
+          <img src={second} alt='second' className='pictwo'/>
+     
+        
+          <img src={third} alt='third' className="pithird"/>
+       
 
         <div className="red">
           <div className="smallred"></div>

@@ -4,7 +4,10 @@ import MainPart from '../components/MainPartHP'
 import BottomPartHP from '../components/BottomPartHP/index';
 import Footer from '../components/Footer'
 import Shelves from '../components/Shelves/index';
-import Slider from '../components/Slider'
+import ScrollCheck from '../components/Slider';
+import News from '../components/News';
+import FooterNav from '../components/FooterNav';
+
 
 
 const HomePage = () => {
@@ -12,10 +15,12 @@ const HomePage = () => {
     <div>
       <TopPart/>
       <Shelves/>
-      <Slider/>
+      <News/>
+      <ScrollCheck/>
       <MainPart/>
     
       <BottomPartHP/>
+      <FooterNav/>
       <Footer/>
     </div>
   )

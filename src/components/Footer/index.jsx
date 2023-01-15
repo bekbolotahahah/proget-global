@@ -1,6 +1,8 @@
 import React from "react";
 import logoImg from "../../styles/img/1.png"
-
+import Twitter from "../../styles/img/Twitter.svg"
+import inst from "../../styles/img/insta.svg"
+import faseBook from "../../styles/img/facebook.svg"
 
 const Footer = () => {
     return (
@@ -20,13 +22,14 @@ const Footer = () => {
 
                 <li className='icon_foot'>
                     <div className='ploc'>
+                        <img src={inst} alt="" />
+                    </div>
+                    <div className='ploc'>
+                        <img src={faseBook} alt="" />
 
                     </div>
                     <div className='ploc'>
-
-                    </div>
-                    <div className='ploc'>
-
+                        <img src={Twitter} alt="" />
                     </div>
                 </li>
             </ul>
